@@ -8,9 +8,12 @@ public class Test{
        System.out.print("Enter first integer:");
        num1 = input.nextInt();
 
-       if (num1 >= 60){
-       System.out.print("Good");
-       }
+       if (num1 >= 60 & num1 <= 70){
+          System.out.print(" <=70 "); 
+          }else{
+          System.out.print(" <60 ");    
+          }
        
+          
+       }  
    }
-}
