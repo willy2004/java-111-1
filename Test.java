@@ -7,22 +7,26 @@ public class Test{
        Scanner input = new Scanner(System.in); 
        System.out.print("Enter first integer:");
        num1 = input.nextInt();
-
-       if (num1 >= 90 & num1 <= 100){
-          System.out.print(" A "); 
-          }
-	   if   (num1 >= 80 & num1 <= 89){  
-		 System.out.print(" B ");}    
-          
-	    if  (num1 >= 70 & num1 <= 79){    
-		 System.out.print(" C "); }   
-          
-	    if  (num1 >= 60 & num1 <= 69){    
-		 System.out.print(" D ");}    
-          
-		if  (num1 <= 60){    
-		 System.out.print(" E "); }	  
-		  
+           
+		  switch( num1 ){
+			  
+			  case 90: case 100:
+			   
+			       println (" A")
+			     break;
+			  case 80 :case 89: 
+			       println (" B")
+			     break;
+              case 70 : case 79:
+			       println (" c")
+			     break;
+              case 60 : case 69:
+			       println (" D")
+			     break;				 
+			  case  59: 
+			       println (" E")
+			     break; 
+		    }
        
           
 		  }  
