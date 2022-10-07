@@ -8,22 +8,21 @@ public class Test{
        System.out.print("Enter first integer:");
        num1 = input.nextInt();
            
-		    switch( num1 ){
-			  
-			     case 90 ... 100:
-			   
+		    switch( num1/10 ){
+			     case 10:
+			     case 9:
 			       println (" A")
 			         break;
-			     case 80 ...  89: 
+			     case 8: 
 			       println (" B")
 			         break;
-                 case 70 ... 79:
+                 case 7:
 			       println (" c")
 			         break;
-                 case 60 ... 69:
+                 case 6:
 			       println (" D")
 			         break;				 
-			     case  59: 
+			     default: 
 			       println (" E")
 			         break; 
 		    }
