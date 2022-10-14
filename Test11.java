@@ -3,18 +3,20 @@ import java.util.Scanner;
 public class Test11{
 	public static void main(String[] args){
 		int row =0;
-		
-		String star = "*"; 
-		
- 		while(row < 5){
-			int b = 4 - row;
-			
-			while(b > 0){
-				System.out.print(" ");
-				b = b -1;
+		int a;
+		while(row < 9){
+			a = row;
+			if(row >= 5){
+			a = 8 - row;	
+				
+				
 			}
-			System.out.println(star); 
-			star = star + "**";
+			 int star =0;
+			 while (star <= a){
+			   System.out.print("*");
+			   star = star +1;
+			 }
+			System.out.println("");
 			row = row +1;
 		    }
 	}
